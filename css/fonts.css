@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Pink";
+  src: url('../fonts/pink/All-Things-Pink.ttf');
+}
+
+@font-face {
+  font-family: "Mawns";
+  src: url('../fonts/mawns/Mawns_Handwriting.ttf');
+}
+
+@font-face {
+  font-family: "Music";
+  src: url('../fonts/music/Music-for-empty-apartments.ttf');
+}

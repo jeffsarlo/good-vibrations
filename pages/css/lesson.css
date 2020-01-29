@@ -1,0 +1,37 @@
+/* -------------------------- Hero ------------------------------------- */
+header .lesson-hero-container {
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+
+header .lesson-hero-container .hero {
+  height: 100%;
+  width: 100%;
+  background: var(--bg);
+}
+
+header .lesson-hero-container .hero #lesson-hero-img {
+  background-image: url("../../img/bg/bg-notes.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+header .lesson-hero-container .hero .hero-caption #caption-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+header .lesson-hero-container .hero-socials {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+}
+/* -------------------------- Hero End --------------------------------- */

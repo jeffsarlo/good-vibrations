@@ -1,0 +1,16 @@
+.wrapper #header {
+  height: 160px;
+}
+
+header #cartNav {
+  background-color: var(--bg);
+}
+
+.checkout-container {
+  width: 100%;
+}
+
+/* ------------------------------ */
+h1, p {
+  color: var(--bg);
+}

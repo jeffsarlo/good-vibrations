@@ -1,0 +1,130 @@
+.wrapper #header {
+  height: 160px;
+}
+
+#product-navbar {
+  background-color: var(--bg);
+}
+
+.focus-product-container {
+  width: 100%;
+  height: 100%:
+}
+
+.focus-product-container .crumb {
+  border-bottom: 1px solid var(--site-grey);
+  opacity: 0.4;
+}
+
+.focus-product-container .focus-product {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.focus-product-container .product-images .product-img-focus,
+.focus-product-container .owl-carousel {
+  max-width: 500px;
+}
+
+.focus-product-container .focus-product-shop,
+.focus-product-container .focus-product-shop  .focus-product-info {
+  width: 600px;
+}
+
+.panel-heading {
+  border-top: 1px solid var(--site-grey);
+  opacity: .3;
+}
+
+.focus-product-shop .focus-product-info #prevNext {
+  min-width: 69px;
+}
+
+.focus-product-shop .focus-product-info .sample-vendor {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--site-grey);
+}
+
+.focus-product-shop .focus-product-info #variant-sku {
+  color: var(--site-grey);
+}
+
+.focus-product-container .focus-product-shop .prices {
+  margin-bottom: 1rem;
+}
+.focus-product-container .focus-product-shop .prices span,
+.focus-product-container .focus-product-shop .total-price span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.focus-product-container .focus-product-shop #quantity {
+  outline: none;
+}
+
+.focus-product-container .focus-product-shop #prev-btn,
+.focus-product-container .focus-product-shop #next-btn {
+  color: black;
+  font-size: 2rem;
+}
+
+.focus-product-container .focus-product-shop #product-add-to-cart {
+  width: 233px;
+  height: 53px;
+  margin-bottom: 25px;
+  background: var(--site-green);
+  border-radius: 0;
+  transition: .3s ease-in-out;
+}
+
+.focus-product-container .focus-product-shop #product-add-to-cart:hover {
+  color: white;
+  background: var(--bg);
+}
+
+.focus-product-container .focus-product-shop .accordion .card-header {
+  cursor: pointer;
+}
+.focus-product-container .focus-product-shop .accordion .card-header h4 a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+
+.focus-product-container .focus-product .product-images .owl-carousel .owl-nav .owl-prev .owl-nav-prev,
+.focus-product-container .focus-product .product-images .owl-carousel .owl-nav .owl-next .owl-nav-next,
+.focus-product-container .focus-product .product-images .owl-carousel .owl-nav .owl-prev .owl-nav-prev,
+.focus-product-container .focus-product .product-images .owl-carousel .owl-nav .owl-next .owl-nav-next {
+  color: var(--site-grey);
+  background: transparent;
+  font-size: 2rem;
+}
+.focus-product-container .focus-product .product-images .owl-carousel .owl-nav [class*=owl-]:hover,
+.focus-product-container .focus-product .product-images .owl-carousel .owl-nav [class*=owl-]:hover {
+  background: transparent;
+  color: var(--bg);
+}
+.owl-theme .owl-nav [class*=owl-] {
+  outline: 0;
+}
+
+
+@media (max-width: 1050px) {
+  .focus-product-container .focus-product-shop .focus-product-info {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .focus-product-container .focus-product-shop,
+  .focus-product-container .focus-product-shop  .focus-product-info {
+    max-width: 375px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

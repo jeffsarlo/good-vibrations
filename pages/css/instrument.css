@@ -1,0 +1,170 @@
+/* -------------------------- Hero ------------------------------------- */
+.header {
+height: 275px;
+}
+
+.header .instrument-hero-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.header .instrument-hero-container .hero {
+  height: 100%;
+  width: 100%;
+  background: var(--bg);
+}
+
+.header .instrument-hero-container .hero #instrument-hero-img {
+  background-image: url("../../img/bg/bg-acoustics.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.header .instrument-hero-container .hero .hero-caption #caption-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.header .instrument-hero-container .hero-socials {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+/* ----------------- Main Section ------------------------------------- */
+section .instruments {
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+section .instruments h2, h3, h4, h5 {
+  text-transform: uppercase;
+}
+
+/* ----------------- Dropdown Filter ---------------------------------- */
+section .instruments .filter .btn-group1 {
+  width: 65px;
+  height: 25px;
+  align-self: start;
+}
+section .instruments .filter .btn-group2 {
+  width: 180px;
+  height: 25px;
+  align-self: start;
+}
+
+section .instruments .filter label.filter {
+  text-transform: uppercase;
+  align-self: start;
+  margin: 0 5px 0 15px;
+}
+
+section .instruments .filter .btn-group .btn {
+  background: #F0F0F0;
+  color: var(--bg);
+  line-height: 15px;
+  font-size: 12px;
+  border: none;
+  focus: none;
+  border-radius: 0;
+}
+
+section .instruments .filter .btn-group .dropdown-toggle::after {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--bg);
+}
+
+/* ----------------- gallery ------------------------------------------ */
+section .instruments .content #img-gallery {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, 171px);
+  grid-column-gap: 15px
+}
+
+section .instruments .content #img-gallery img {
+  width: 171px;
+  transition: 0.2s ease-in-out;
+}
+
+section .instruments .content #img-gallery img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* ----------------- sidebar ------------------------------------------ */
+section .instruments .accordion,
+section .instruments .accordion .sidebar-title {
+  width: 160px;
+}
+
+section .instruments .accordion .card {
+    border: none;
+}
+
+section .instruments .accordion .card-body {
+  padding-left: 0;
+}
+
+.show-hide-brand,
+.show-hide-category,
+.show-hide-condition,
+.show-hide-justin {
+  display: none;
+}
+
+
+section .instruments .accordion .card #headingOne,
+section .instruments .accordion .card #headingTwo,
+section .instruments .accordion .card #headingThree {
+  border-top: 2px solid black;
+  padding-left: 0;
+  background: var(--site-white);
+}
+
+section .instruments .accordion .card #collapseOne,
+section .instruments .accordion .card #collapseTwo,
+section .instruments .accordion .card #collapseThree {
+  background: #F0F0F0;
+}
+
+section .instruments .accordion .card .btn-link {
+ width: 160px;
+ padding-left: 0;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: black;
+ font-weight: 600;
+}
+
+.arrow {
+  padding: 0;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: .2s ease-in-out
+}
+
+.rotate {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@media (max-width: 767px) {
+  section .instruments .sidebar {
+    display: none;
+  }
+}
